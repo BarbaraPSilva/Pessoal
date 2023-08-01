@@ -4,16 +4,16 @@ body {
 margin: 0;
 padding: 0;
 font: 'Poppins', sans-serif;
-color: #502030;
+color: #100f64;
 }
 
 .header-container {
     width: 100vw;
     height: 100vh;
-    background-color: #bfbfc1;
-    background-image: url('./img/fotomim.png');
+    background-color: #d5d1d6;
+    background-image: url('./img/img1.png');
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: left;
     background-size: contain;
     display: flex;
     flex-direction: column;
@@ -28,13 +28,13 @@ h1{
     font-size: 40px;
     text-transform: uppercase;
     letter-spacing: 4px;
-    text-align: left;
+    text-align: center;
 }
 
 h3{
     text-transform: uppercase;
     letter-spacing: 4px;
-    text-align: left;
+    text-align: center;
 }
 
 .social-media{
@@ -78,7 +78,7 @@ h3{
 .checkbox .trace {
     width: 50px;
     height: 2px;
-    background-color: #502030;
+    background-color: #100f64;
     position: absolute;
     border-radius: 4px;
     transition: 0.5s ease-in-out;
@@ -113,7 +113,7 @@ h3{
     height: 4px;
     width: 10px;
     border-radius: 50%;
-    box-shadow: 0px 0px 0px 0px #eee8ee;
+    box-shadow: 0px 0px 0px 0px #d5d1d6;
     z-index: -1;
     transition: 400ms ease-in-out 0s;
 }
@@ -139,7 +139,7 @@ h3{
 
 .menu-items ul li a {
     margin: 10px 0;
-    color: #502030;
+    color: #100f64;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -166,11 +166,11 @@ h3{
 }
 
 #toggle:checked + .checkbox {
-    background-color: #eee8ee;
+    background-color: #d5d1d6;
 }
 
 #toggle:checked ~ .menu {
-    box-shadow: 0px 0px 0px 100vmax #eee8ee;
+    box-shadow: 0px 0px 0px 100vmax #d5d1d6;
     z-index: 1;
 }
 
@@ -209,13 +209,13 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #bfbfc1;
-    background-image: url('./img/GitHub-Mark.png');
+    background-color: #d5d1d6;
+    background-image: url('./img/img3.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     filter: grayscale(0.5);
-    color: #806060;
+    color: #405472;
     cursor: pointer;
     transition: 0.5s ease-in-out;
  }
@@ -223,7 +223,7 @@ h3{
  .card-text {
     width: 60%;
     letter-spacing: 1px;
-    color: #614b60;
+    color: #405472;
  }
 
  .card-wrapper{
@@ -242,7 +242,7 @@ h3{
     height: 100px;
     border-radius: 50%;
     display: block;
-    border: 1px solid #eee8ee;
+    border: 1px solid #d5d1d6;
     opacity: 0;
     transition: 0.5s ease-in-out;
  }
